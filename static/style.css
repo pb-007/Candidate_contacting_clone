@@ -1,0 +1,30 @@
+h1{
+   text-align: center;
+}
+
+
+#head{
+    font-weight:lighter;
+    text-align: center;
+    background-color:coral;
+    color:black;
+    text-transform:uppercase;
+    border:snow;
+    border-width: 50px;
+}
+
+#button{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#form{
+    margin-left: 60px;
+}
+
+body{
+    background-image: url('../static/Campus-Recruitment-Process-Heres-everything-you-need-to-know.jpg');
+    background-size: cover;
+}

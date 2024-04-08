@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacted_candidates</title>
+</head>
+<body>
+    <h1>Contacted Friends</h1>
+    <p>The following friends have been contacted:</p>
+    <ul>
+        {% for friend in contacted_friends %}
+            <li>{{ friend }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

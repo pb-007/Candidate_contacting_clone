@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Recruitment</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id = "head">
+         <h1>List Of Candidates</h1>
+    </div id = "form">
+    <form action="/contact_friends" method="post">
+        <p>Select candidates to contact their friends:</p>
+        {% for candidate in candidates %}
+            <input type="checkbox" name="candidate" value="{{ candidate.name }}"> {{ candidate.name }}<br>
+        {% endfor %}
+        <button id = "button" type="submit">Enter</button>
+    </form>
+    
+</body>
+</html>
