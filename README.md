@@ -28,7 +28,7 @@ Ensure you have Python installed on your system (Python 3.10).
 Once the dependencies are installed, you're ready to use the project.
 
 3. Execute the following code in your terminal.
-  python app.py
+-  python app.py
 
 open the browser and copy http://127.0.0.1:5000 to navigate to it.
 
